@@ -1,0 +1,15 @@
+
+.main-app-container .page {
+	display: none;
+}
+.main-app-container .page.active {
+	display: block;
+}
+
+
+body.standalone nav {
+	display: none;
+}
+body.standalone #page-wrapper {
+	margin: 0;
+}
